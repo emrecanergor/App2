@@ -36,11 +36,5 @@
     <Compile Include="Tests.cs" />
     <Compile Include="AppInitializer.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\App2\App2.Android\App2.Android.csproj">
-      <Project>{3759be7a-255e-4139-9daf-7ea8222a2449}</Project>
-      <Name>App2.Android</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
